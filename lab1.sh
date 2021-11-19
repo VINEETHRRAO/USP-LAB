@@ -1,4 +1,4 @@
-#bin!/sh
+#!/bin/sh
 echo Enter year
 read year
 if [ `expr $year % 400` -eq 0 ] ; then
