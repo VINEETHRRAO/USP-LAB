@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 echo Enter three numbers
 read a b c
 if [ $a -gt $b -a $a -gt $c ] ; then
